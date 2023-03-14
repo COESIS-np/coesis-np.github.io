@@ -1,8 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+
 .comingMain{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #2a0a37;
+    background-image: url(../Assests/bg-image.png);
     height: 100vh;
 }
 
@@ -13,7 +16,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
 }
 
  .comingSoon{
@@ -23,7 +25,9 @@
 
  .empower{
     color: white;
-    font-size: 20px;
+    font-family: 'Baloo 2';
+    font-size: 32px;
+    font-weight: bold;
  }
 
 .lowerPart{
@@ -38,9 +42,9 @@
 
 .organizer{
   fill: #2c0b39;
-  font-size: 20px;
+  font-family: 'Baloo 2';
+  font-size: 24px;
   font-weight: bold;
-  font-family: sans-serif;
 }
 
 .svg{
@@ -50,5 +54,4 @@
 .rocketimg{
   position: relative;
   top: 55px;
-
 }
